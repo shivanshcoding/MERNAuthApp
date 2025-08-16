@@ -1,0 +1,51 @@
+/* Same style as reset-password.css */
+.reset-container {
+  max-width: 400px;
+  margin: 5rem auto;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+}
+
+.reset-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reset-label {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.reset-input {
+  padding: 8px;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+.reset-error {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+.reset-button {
+  margin-top: 1.5rem;
+  padding: 10px;
+  background: #0070f3;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset-success {
+  text-align: center;
+  padding: 2rem;
+  color: green;
+  font-weight: bold;
+}
